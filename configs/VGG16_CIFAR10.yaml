@@ -1,5 +1,5 @@
 project_config:
-  name: &name CIFAR10-experiment
+  name: &name dl-code-management-experiment
   version: &version regular
   test_version: &test_version test_regular
   log_dir: &log_dir __logs__/
@@ -69,7 +69,7 @@ trainer_config:
     - name: ModelCheckpoint
       param:
         filename: *best_ckpt_name
-        monitor: 'IoU'
+        monitor: 'F1'
         mode: 'max'
         save_last: true
         verbose: true
@@ -96,4 +96,4 @@ test_trainer_config:
         save_dir: *log_dir
         name: *name
         version: *test_version
-wandb_key: null
+wandb_key: 271c72fd8478567c2aba85152c0aef83eeba24cc
