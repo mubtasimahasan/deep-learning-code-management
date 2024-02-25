@@ -1,4 +1,4 @@
-In this project, we delve into effective code management practices for deep learning projects. The code for the session is implemented in Python using PyTorch and PyTorch Lightning framework, utilizing various packages for data processing and model training.
+This project focuses on exploring effective code management practices for deep learning projects. The code for the project is implemented in Python using PyTorch and PyTorch Lightning framework, utilizing various packages for data processing and model training.
 
   
 ## 📂 Project Structure
